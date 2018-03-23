@@ -1,6 +1,7 @@
 # Recognition-2.0
 
 （一）代码（.py文件）介绍
+
 1）Main_Func:程序入口，调用LoadImage.loadImage(), LBP.LBP(), LDA.LDA
 
 2）LoadImage.py：加载图片文件，函数调用方式是 
@@ -16,5 +17,6 @@
 "LDA.LDA(转置矩阵FaceMat,标签数组label)"
 
 （二）数据文件（图片库）介绍
+
 1）face：自己拍的照片，共11类，每类500张照片，图片大小100*100，彩图
 2）ORL：ORL的数据库，共40类，每类10张照片，图片大小92*112，灰度图
